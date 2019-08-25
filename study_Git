@@ -123,3 +123,19 @@ rebase的目的是使得我们在查看历史提交的变化时更容易，因�
 	--global参数是全局参数，也就是这些命令在这台电脑的所有Git仓库下都有用。
 	配置一个git last，让其显示最后一次提交信息：git config --global alias.last 'log -1'
 	git config --global alias.lg "log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
+
+//一些学习的时候遇到的问题以及解决方法：（！！！表示遇到的比较多）
+1.Warning: Permanently added the RSA host key for IP address '13.250.177.223' to the list of known hos
+https://blog.csdn.net/hunhun1122/article/details/79752125
+！！！2.如何在hosts文件添加自己想要解析的网站？及修改hosts的作用
+https://www.cnblogs.com/nufangrensheng/p/3236025.html
+！！！3.如何解决 failed to push some refs to
+https://zhinan.sogou.com/guide/detail/?id=316513444271
+4.升级oh_my_zsh报错：“oh my zsh  Cannot pull with rebase: You have unstaged changes. Please commit or stash them. There was an error updating. Try again later?”
+https://www.jianshu.com/p/57c241ef9d72?utm_campaign=maleskine&utm_content=note&utm_medium=seo_notes
+5.fatal: Unable to create '/.git/index.lock': File exists 的解决方法
+https://blog.csdn.net/mixi57/article/details/51615737
+6.【GitHub】解决ERROR: Repository not found。fatal: Could not read from remote repository.
+https://blog.csdn.net/weixin_40886892/article/details/80725071
+7.Warning: Permanently added the RSA host key for IP address '192.30.253.113' to the list of known hosts. Permission denied (publickey). fatal: Could not read from remote repository. Please make sure y
+https://www.cnblogs.com/qcwblog/p/5709720.html
